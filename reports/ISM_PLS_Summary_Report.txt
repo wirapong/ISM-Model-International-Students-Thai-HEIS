@@ -1,0 +1,151 @@
+================================================================
+ISM PLS-SEM SUMMARY REPORT — DIRECT/PARALLEL MODEL (12 Paths)
+Thesis: The ISM Model for International Students in Thailand HE
+Researcher: Paiboon Manororm
+Advisor: Assoc.Prof.Dr.Wirapong Chansanam, Khon Kaen University
+Analysis date: 2026-11-07
+================================================================
+
+A. SAMPLE & DATA
+   n = 354 (no missing values — all 354 cases valid)
+   Scale: Likert 1–5 | 32 items | 7 constructs
+
+B. MEASUREMENT MODEL — Reflective
+   Thresholds: Loadings ≥ 0.708 | α/rhoC 0.70–0.95 | AVE ≥ 0.50 | HTMT < 0.85
+
+   Reliability & AVE:
+   alpha  rhoA  rhoC   AVE
+AR 0.849 0.858 0.848 0.486
+HS 0.873 0.875 0.873 0.580
+HT 0.821 0.821 0.821 0.604
+PA 0.860 0.861 0.860 0.551
+LC 0.844 0.844 0.843 0.641
+IA 0.808 0.810 0.805 0.509
+SI 0.839 0.841 0.835 0.460
+
+   NOTE: AR AVE=0.486 (<0.50) → marginal; consider dropping low-loading items (AR5–AR8)
+         SI AVE=0.460 (<0.50) → marginal; consider dropping low-loading items (SI25–SI27)
+
+   Outer Loadings:
+        AR    HS    HT    PA    LC    IA    SI
+IA1  0.000 0.000 0.000 0.000 0.000 0.759 0.000
+IA2  0.000 0.000 0.000 0.000 0.000 0.761 0.000
+IA3  0.000 0.000 0.000 0.000 0.000 0.707 0.000
+IA4  0.000 0.000 0.000 0.000 0.000 0.619 0.000
+AR5  0.582 0.000 0.000 0.000 0.000 0.000 0.000
+AR6  0.636 0.000 0.000 0.000 0.000 0.000 0.000
+AR7  0.629 0.000 0.000 0.000 0.000 0.000 0.000
+AR8  0.694 0.000 0.000 0.000 0.000 0.000 0.000
+AR9  0.804 0.000 0.000 0.000 0.000 0.000 0.000
+AR10 0.803 0.000 0.000 0.000 0.000 0.000 0.000
+LC11 0.000 0.000 0.000 0.000 0.831 0.000 0.000
+LC12 0.000 0.000 0.000 0.000 0.771 0.000 0.000
+LC13 0.000 0.000 0.000 0.000 0.800 0.000 0.000
+HS14 0.000 0.779 0.000 0.000 0.000 0.000 0.000
+HS15 0.000 0.774 0.000 0.000 0.000 0.000 0.000
+HS16 0.000 0.721 0.000 0.000 0.000 0.000 0.000
+HS17 0.000 0.726 0.000 0.000 0.000 0.000 0.000
+HS18 0.000 0.804 0.000 0.000 0.000 0.000 0.000
+HT19 0.000 0.000 0.778 0.000 0.000 0.000 0.000
+HT20 0.000 0.000 0.785 0.000 0.000 0.000 0.000
+HT21 0.000 0.000 0.769 0.000 0.000 0.000 0.000
+SI22 0.000 0.000 0.000 0.000 0.000 0.000 0.766
+SI23 0.000 0.000 0.000 0.000 0.000 0.000 0.750
+SI24 0.000 0.000 0.000 0.000 0.000 0.000 0.694
+SI25 0.000 0.000 0.000 0.000 0.000 0.000 0.639
+SI26 0.000 0.000 0.000 0.000 0.000 0.000 0.613
+SI27 0.000 0.000 0.000 0.000 0.000 0.000 0.589
+PA28 0.000 0.000 0.000 0.716 0.000 0.000 0.000
+PA29 0.000 0.000 0.000 0.778 0.000 0.000 0.000
+PA30 0.000 0.000 0.000 0.777 0.000 0.000 0.000
+PA31 0.000 0.000 0.000 0.719 0.000 0.000 0.000
+PA32 0.000 0.000 0.000 0.719 0.000 0.000 0.000
+
+   Low loadings (<0.708): IA4=0.619, AR5–AR8 (0.582–0.694), SI24–SI27 (0.589–0.694)
+
+   HTMT (Discriminant Validity — target < 0.85):
+      AR    HS    HT    PA    LC    IA SI
+AR    NA    NA    NA    NA    NA    NA NA
+HS 0.773    NA    NA    NA    NA    NA NA
+HT 0.800 0.955    NA    NA    NA    NA NA
+PA 0.719 0.713 0.664    NA    NA    NA NA
+LC 0.783 0.862 0.872 0.625    NA    NA NA
+IA 0.754 0.645 0.668 0.551 0.682    NA NA
+SI 0.802 0.826 0.850 0.850 0.766 0.659 NA
+
+C. STRUCTURAL MODEL — DIRECT/PARALLEL (12 Paths)
+   Exogenous: AR (Academic Quality), HS (Admin Support), HT (Image & Prestige)
+   Endogenous: PA (Psychological Adaptation), LC (Sociocultural Adaptation),
+               IA (Information Needs), SI (Situational Issue)
+   Bootstrap: nboot=5000, seed=2026, two-tailed α=0.05
+
+   Path Coefficients (β) & R²:
+           PA    LC    IA    SI
+R^2     0.607 0.797 0.577 0.781
+AdjR^2  0.603 0.795 0.573 0.779
+AR      0.522 0.274 0.593 0.333
+HS      0.870 0.331 0.054 0.147
+HT     -0.589 0.334 0.143 0.451
+
+   Bootstrapped Paths (with CI and p-values):
+           Original Est. Bootstrap Mean Bootstrap SD T Stat. 2.5% CI 97.5% CI
+AR  ->  PA        0.5219         0.6717       8.5041  0.0614  0.1590   1.1351
+AR  ->  LC        0.2742         0.1168       7.4605  0.0368 -0.1165   0.5389
+AR  ->  IA        0.5931         0.4708       4.8011  0.1235  0.1989   1.0585
+AR  ->  SI        0.3325         0.1759       8.4215  0.0395 -0.0630   0.6626
+HS  ->  PA        0.8701         1.3514      36.6601  0.0237 -1.3094   4.2707
+HS  ->  LC        0.3314        -0.0979      24.5779  0.0135 -1.7811   1.9923
+HS  ->  IA        0.0542        -0.7378      25.0928  0.0022 -1.7381   2.1065
+HS  ->  SI        0.1467        -0.6820      36.8384  0.0040 -2.1778   1.7324
+HT  ->  PA       -0.5887        -1.1913      42.5378 -0.0138 -4.5803   1.8631
+HT  ->  LC        0.3336         0.8946      30.5954  0.0109 -1.5060   2.7525
+HT  ->  IA        0.1426         1.0298      28.4366  0.0050 -2.2026   2.1189
+HT  ->  SI        0.4513         1.4073      43.0332  0.0105 -1.3450   3.0228
+           Bootstrap P Val
+AR  ->  PA          0.0384
+AR  ->  LC          0.0864
+AR  ->  IA          0.0260
+AR  ->  SI          0.0724
+HS  ->  PA          0.1432
+HS  ->  LC          0.4200
+HS  ->  IA          0.9392
+HS  ->  SI          0.7388
+HT  ->  PA          0.2908
+HT  ->  LC          0.4544
+HT  ->  IA          0.7524
+HT  ->  SI          0.3560
+
+D. MODEL QUALITY
+   R² Interpretation: PA=0.607 (substantial), LC=0.797 (substantial),
+                      IA=0.577 (moderate), SI=0.781 (substantial)
+
+   f² Effect Sizes:
+   AR HS HT    PA    LC    IA    SI
+AR  0  0  0 0.239 0.130 0.283 0.158
+HS  0  0  0 0.165 0.045 0.000 0.015
+HT  0  0  0 0.066 0.040 0.004 0.067
+PA  0  0  0 0.000 0.000 0.000 0.000
+LC  0  0  0 0.000 0.000 0.000 0.000
+IA  0  0  0 0.000 0.000 0.000 0.000
+SI  0  0  0 0.000 0.000 0.000 0.000
+
+   VIF for Antecedents:
+   Endogenous Predictor   VIF
+1          PA        AR 2.019
+2          PA        HS 3.175
+3          PA        HT 3.210
+4          LC        AR 2.019
+5          LC        HS 3.175
+6          LC        HT 3.210
+7          IA        AR 2.019
+8          IA        HS 3.175
+9          IA        HT 3.210
+10         SI        AR 2.019
+11         SI        HS 3.175
+12         SI        HT 3.210
+
+E. SOFTWARE & REPRODUCIBILITY
+   R version 4.6.0 (2026-04-24)
+   seminr: 2.4.2
+   Bootstrap: nboot=5000, seed=2026 | Missing: none (n=354, complete cases)
+================================================================

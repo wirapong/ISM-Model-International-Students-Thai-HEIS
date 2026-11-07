@@ -1,0 +1,13 @@
+"Endogenous","Predictor","VIF"
+"PA","AR",2.019
+"PA","HS",3.175
+"PA","HT",3.21
+"LC","AR",2.019
+"LC","HS",3.175
+"LC","HT",3.21
+"IA","AR",2.019
+"IA","HS",3.175
+"IA","HT",3.21
+"SI","AR",2.019
+"SI","HS",3.175
+"SI","HT",3.21
