@@ -14,9 +14,10 @@
 
 This repository contains the full research outputs — manuscript sections, PLS-SEM results, analysis scripts, and data tables — for the thesis and journal article examining how **institutional quality factors** influence **international students' adaptation and information experiences** in Thai higher education, using Partial Least Squares Structural Equation Modeling (PLS-SEM).
 
-**Researcher:** Paiboon Manororm (667080012-5)  
-**Advisor:** Assoc. Prof. Dr. Wirapong Chansanam  and Asst. Prof. Dr. Lan Thi Nguyen
-**Institution:** Faculty of Informatics, Graduate School, Khon Kaen University, Thailand  
+**Researcher:** Paiboon Manororm
+**Advisor:** Assoc. Prof. Dr. Wirapong Chansanam
+**Advisor:** Asst. Prof. Dr. Lan Thi Nguyen
+**Institution:** Faculty of Humanities and Social Sciences, Khon Kaen University, Thailand  
 **Analysis date:** November 2026
 
 ---
