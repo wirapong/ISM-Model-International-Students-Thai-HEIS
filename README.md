@@ -15,7 +15,7 @@
 This repository contains the full research outputs — manuscript sections, PLS-SEM results, analysis scripts, and data tables — for the thesis and journal article examining how **institutional quality factors** influence **international students' adaptation and information experiences** in Thai higher education, using Partial Least Squares Structural Equation Modeling (PLS-SEM).
 
 **Researcher:** Paiboon Manororm (667080012-5)  
-**Advisor:** Assoc. Prof. Dr. Wirapong Chansanam  
+**Advisor:** Assoc. Prof. Dr. Wirapong Chansanam  and Asst. Prof. Dr. Lan Thi Nguyen
 **Institution:** Faculty of Informatics, Graduate School, Khon Kaen University, Thailand  
 **Analysis date:** November 2026
 
@@ -123,11 +123,6 @@ HS — Administrative &      ──► PA — Psychological Adaptation
 ISM-Model-International-Students-Thai-HEIS/
 │
 ├── README.md                          ← This file
-│
-├── article/                           ← Full manuscript sections (Markdown)
-│   ├── 01_Introduction.md             ← Sec. 1: Introduction (6-paragraph PLS structure)
-│   ├── 02_Methods_Results.md          ← Sec. 3–4: Methods + Results (8 tables + Figure 1)
-│   └── 03_Discussion_Conclusion.md    ← Sec. 5–6: Discussion + Conclusion
 │
 ├── figures/
 │   └── ISM_PLS_Model_Diagram.png      ← PLS-SEM path model diagram (180 DPI)
@@ -244,7 +239,7 @@ Full reference lists are included in each manuscript section.
 If you use this repository, model, or analysis outputs in your research, please cite:
 
 ```
-Manororm, P., & Chansanam, W. (2026). The Information Services Management (ISM) model
+Manororm, P., Chansanam, W., & Nguyen, L.T. (2026). The Information Services Management (ISM) model
 for international students in Thailand higher education institutions: A PLS-SEM study.
 [Manuscript in preparation]. Faculty of Informatics, Khon Kaen University.
 GitHub: https://github.com/wirapong/ISM-Model-International-Students-Thai-HEIS
